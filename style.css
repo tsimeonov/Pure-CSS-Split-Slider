@@ -50,6 +50,8 @@ ul li .slide .face {
 
 ul li .slide .face.face1 {
   left: 0;
+  transition: transform 1s;
+  transform-origin: top;
 }
 
 ul li .slide .face.face1 img {
