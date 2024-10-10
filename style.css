@@ -23,7 +23,8 @@ ul {
 }
 
 ul li {
-  list-style: none
+  list-style: none;
+  margin-bottom: 50px;
 }
 
 ul li input {
