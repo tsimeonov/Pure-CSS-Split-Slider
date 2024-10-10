@@ -46,3 +46,8 @@ ul li .slide .face {
   height: 100%;
   background: #fff;
 }
+
+
+ul li .slide .face.face1 {
+  left: 0;
+}
