@@ -51,3 +51,10 @@ ul li .slide .face {
 ul li .slide .face.face1 {
   left: 0;
 }
+
+ul li .slide .face.face1 img {
+  postion: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
