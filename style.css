@@ -71,4 +71,10 @@ ul li .slide .face.face2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: 1px solid rebeccapurple;
+}
+
+ul li .slide .face.face2 h2 {
+  font-size: 4em;
+  color: #333;
 }
