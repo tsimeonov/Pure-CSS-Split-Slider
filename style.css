@@ -31,6 +31,9 @@ ul li {
 ul li input {
   position: relative;
   z-index: 1000;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
 }
 
 ul li .slide {
@@ -52,6 +55,7 @@ ul li .slide .face.face1 {
   left: 0;
   transition: transform 1s;
   transform-origin: top;
+  /* transform: rotateX(90deg); */
 }
 
 ul li .slide .face.face1 img {
@@ -71,6 +75,7 @@ ul li .slide .face.face2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* transform: rotateX(90deg); */
   outline: 1px solid rebeccapurple;
 }
 
@@ -83,4 +88,10 @@ ul li .slide .face.face2 p {
   font-size: 1.1em;
   color: #333;
   line-height: 1.7em;
+}
+
+ul li input[type="radio"]:checked ~ .slide .face.face1 {
+  transform: rotateX(0deg);
+  transition: transform 1s;
+  transform-origin: bottom;
 }
