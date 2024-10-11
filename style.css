@@ -76,7 +76,7 @@ ul li .slide .face.face2 {
   justify-content: center;
   align-items: center;
   /* transform: rotateX(90deg); */
-  outline: 1px solid rebeccapurple;
+  /* outline: 1px solid rebeccapurple; */
 }
 
 ul li .slide .face.face2 h2 {
